@@ -1,6 +1,7 @@
 'use strict'
 
 var gBall1Size = 100
+var gBall2Size = 100
 
 function onBallClick() {
   var elBall1 = document.querySelector('.ball')
@@ -13,3 +14,5 @@ function onBallClick() {
   elBall1.innerText = gBall1Size
   elBall1.style.backgroundColor = getRandomColor()
 }
+
+function onBall2Click() {}

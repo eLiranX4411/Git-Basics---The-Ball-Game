@@ -12,6 +12,10 @@ h1 {
   color: white;
 }
 
+div {
+  transition: 1s;
+}
+
 .ball {
   display: flex;
   justify-content: center;
@@ -26,8 +30,6 @@ h1 {
 
   font-size: 22px;
   font-weight: bold;
-
-  transition: 1s;
 }
 
 .ball_2 {
@@ -44,6 +46,4 @@ h1 {
 
   font-size: 22px;
   font-weight: bold;
-
-  transition: 1s;
 }

@@ -11,4 +11,5 @@ function onBallClick() {
   elBall1.style.width = gBall1Size + 'px'
   elBall1.style.height = gBall1Size + 'px'
   elBall1.innerText = gBall1Size
+  elBall1.style.backgroundColor = getRandomColor()
 }

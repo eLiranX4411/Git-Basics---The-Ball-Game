@@ -13,9 +13,16 @@ h1 {
 }
 
 .ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 100px;
   width: 100px;
 
   background-color: aquamarine;
   margin: auto;
+
+  font-size: 22px;
+  font-weight: bold;
 }
